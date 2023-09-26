@@ -168,7 +168,7 @@
 }
 #postal{
     /* border: 2px solid black; */
-    margin-left: 550px;
+    margin-left: 580px;
     margin-top: -10px;
 }
 #postaltext{
@@ -189,4 +189,75 @@
     bottom: 23px;
     left: 30px;
     font-size: 15px;
+}
+#navunder{
+    margin-left: 120px;
+    margin-right: 100px;
+    border-color: rgba(146, 146, 146, 0.1);
+}
+.family a{
+    text-decoration: none;
+    color: rgb(0,124,193);
+    font-weight: 700;
+}
+#greet{
+    margin-left: 120px;
+    margin-top: 75px;
+}
+.hej{
+    font-size: 40px;
+    font-weight: 650;
+}
+.underhej{
+    margin-top: 20px;
+    color: rgba(0,0,0,0.8);
+}
+.family{
+    margin-top: 17px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.8);
+}
+#fbody{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    margin-right: 50px;
+    margin-top: 120px;
+    margin-left: 120px;
+    justify-content: space-between;
+}
+#largeimg img{
+    width: 660px;
+}
+#cushionimg img{
+    width: 320px;
+}
+#chairimg img{
+    height: 435px;
+}
+#candles img{
+    height: 435px;
+    width: 320px;
+}
+#secrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#thdrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#woman img{
+    width: 327px;
+    height: 320px;
+}
+#last{
+    margin-top: 70px;
+    margin-bottom: 80px;
+    /* border: 0.5px; */
+    border-color: rgba(0,0,0,0.2);
+    margin-right: 50px;
+    margin-left: 120px;
 }
