@@ -148,6 +148,7 @@
 }
 #belowsearch{
     display: flex;
+    margin-top: 17px;
 }
 #products{
     margin-top: -10px;
@@ -445,4 +446,50 @@
 }
 #lasts:hover{
     text-decoration: underline;
+}
+#scrollhead{
+    font-size: 23px;
+    font-weight: 700;
+    /* margin-bottom: 40px; */
+}
+#scrollparent{
+    margin-left: 120px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+}
+#scrollmain{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.scrollimgs img{
+    width: 230px;
+}
+.imgdes{
+    height: 45px;
+    width: 180px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    top: 270px;
+    left: 35px;
+    font-weight: 550;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 3px;
+}
+.scrollimgsall img{
+    width: 230px;
+}
+.scrollimgsall{
+    margin-left: 20px;
+}
+#collecmain{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.collectionimgs img{
+    width: 430px;
 }
