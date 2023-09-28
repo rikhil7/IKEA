@@ -1,13 +1,13 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
 /* For WebKit based browsers (Chrome, Safari) */
 #scrollmain::-webkit-scrollbar {
-    height: 7px;
+    height: 5px;
     /* height of the scrollbar */
     padding: 20px;
 }
 
 #scrollmain::-webkit-scrollbar-track {
-    height: 10px;
+    height: 7px;
     /* background: rgb(237, 11, 11); */
     /* color of the track (background behind the scrollbar) */
 }
@@ -16,7 +16,7 @@
     background: #373333;
     /* color of the scrollbar thumb (the draggable handle) */
     border-radius: 5px;
-    height: 10px;
+    height: 5px;
 }
 
 #scrollmain::-webkit-scrollbar-thumb:hover {
@@ -31,8 +31,6 @@
     margin: 0px;
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
-
-
 }
 
 #search {
@@ -585,7 +583,7 @@
 #scrollmain {
     display: flex;
     overflow-x: auto;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     padding-bottom: 10px;
 }
 
